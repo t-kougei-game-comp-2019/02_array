@@ -3,7 +3,7 @@
 int main(int argc, char *argv[]) 
 {
     char str[5];
-    int num, count = 0;
+    int num = 0, count = 0;
     int* array = mallloc(sizeof(int) * 100);
     while(fgets(str, sizeof(str), stdin))
     {
