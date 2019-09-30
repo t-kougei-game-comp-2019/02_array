@@ -17,12 +17,18 @@ int main(int argc, char *argv[])
                 count++;
             }
             else
+            {
                 printf("配列がいっぱいです。¥n");
+            }
         }
         else if(num < 0 && num >= 100)
+        {
             printf("%dが格納されています。¥n",array[-count - 1]);
+        }
         else
+        {
             printf("不正な入力です。¥n");
+        }
     }
 
     free(array);
