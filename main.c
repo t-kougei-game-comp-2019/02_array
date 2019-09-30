@@ -21,7 +21,7 @@ int main(int argc, char *argv[])
                 printf("配列がいっぱいです。¥n");
             }
         }
-        else if(num < 0 && num >= 100)
+        else if(num < 0 && num >= -100)
         {
             printf("%dが格納されています。¥n",array[-count - 1]);
         }
