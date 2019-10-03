@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 int main(int argc, char *argv[])
 {
@@ -18,16 +19,16 @@ int main(int argc, char *argv[])
 			}
 			else
 			{
-				printf("配列がいっぱいです。¥n");
+				printf("配列がいっぱいです。\n");
 			}
 		}
 		else if (num < 0 && num >= -100)
 		{
-			printf("%dが格納されています。¥n", array[-count - 1]);
+			printf("%dが格納されています。\n", array[-count - 1]);
 		}
 		else
 		{
-			printf("不正な入力です。¥n");
+			printf("不正な入力です。\n");
 		}
 	}
 
