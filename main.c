@@ -12,7 +12,7 @@ int main(int argc, char *argv[])
         {
             num = atoi(str);
             
-            if(num => 0 && num <= 100)
+            if(num >= 0 && num <= 100)
             {
                 if(count < 100){
                     array[count] = num;
@@ -22,7 +22,7 @@ int main(int argc, char *argv[])
                     printf("配列外です。"\n);
                 
             }
-            else if(num < 0&& num => 100)
+            else if(num < 0&& num >= 100)
               printf("%dが格納してあります。\n' , array[-count - 1]);
                      
             else
