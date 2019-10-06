@@ -12,7 +12,7 @@ int main(int argc, char *argv[])
         {
             num = atoi(str);
             
-            fi(num => 0 && num <= 100)
+            if(num => 0 && num <= 100)
             {
                 if(count < 100){
                     array[count] = num;
