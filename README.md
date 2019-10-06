@@ -16,7 +16,7 @@
 
 # テスト結果
 
-[![Build Status](https://travis-ci.com/t-kougei-game-comp-2019/02_array.svg?branch=master)](https://travis-ci.com/t-kougei-game-comp-2019/02_array)
+[![Build Status](https://travis-ci.com/gowjrehakqoa/02_array.svg?branch=master)](https://travis-ci.com/gowjrehakqoa/02_array)
 
 # 今回の問題
 
@@ -78,3 +78,5 @@ n
 7
 4
 ~~~
+
+
