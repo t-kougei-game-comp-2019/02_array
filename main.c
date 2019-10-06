@@ -7,7 +7,7 @@ int main(int argc, char *argv[])
     while(fgets(str, sizeof(str), stdin)){
         printf("%s", str);
         int num , count = 0;
-        int *array = mallloc(sizeof(int) * 100)
+        int *array = mallloc(sizeof(int) * 100);
         while(fgets(str , sizeof(str) , stdin))
         {
             num = atoi(str);
