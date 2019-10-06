@@ -18,16 +18,16 @@ int main(int argc, char *argv[])
                     array[count] = num;
                     couunt++;
                 }
-                else {
+                else 
                     printf("配列外です。"\n);
-                }
+                
             }
-            else if(num < 0&& num >= 100){
+            else if(num < 0&& num >= 100)
               printf("%dが格納してあります。\n' , array[-count - 1]);
-                     }
-            else{
+                     
+            else
                 printf("正しく入力してください。"\n");
-                     }
+                     
                      
        }
     free(array);
