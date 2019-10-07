@@ -1,31 +1,21 @@
 #include <stdio.h>
-
-int main(int argc, char* argv[])
+int main(int argc, char *argv[])
 {
-	char str[5];
-
+    char str[5];
 	while (fgets(str, sizeof(str), stdin)) {
-		printf("%s", str);
-	}
-	int num, count = 0;
-	int* array = mallloc(sizeof(int) * 100);
-
-	while (fgets(str, sizeof(str), stdin))
-	{
-		num = atoi(str);
-		if (num >= 0 && num <= 100)
+		int input = atoi(str);
+		if (input >= 0)
 		{
-			if (count < 100) {
-				array[count] = num;
-				count++;
-			}
-			else
-				printf("配列外です\n");
+			array[count++] = input;
 		}
-		else if (num < 0 && num >= 100)
-			printf("%dが格納してあります。\n", array[-count - 1]);
+		else if(-input <= count)
+		{
+			printf("%d\n", array[-input - 1]);
+		}
 		else
-			printf("正しく入力してください。\n");
+		{
+			printf("不正な入力です。\n");
+		}
 	}
 	return 0;
 }
