@@ -9,15 +9,12 @@ int main(int argc, char *argv[])
 		int c = atoi(str);
 		
 		if (c>=0) {
-			array[count++]=c;
+			array[count]=c;
+			count++;
 		}
 		else if(-c<=count){
 			printf("%d\n",array[-c-1]);
 		}	
-		else
-		{
-			printf("無効。\n");
-		}
 	}
 	return 0;
 }
