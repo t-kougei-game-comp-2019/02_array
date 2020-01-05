@@ -16,8 +16,6 @@ int main()
 		else if(-input<=count){
 			printf("%d\n",array[-input-1]);
 		}	
-		else
-			:
 	}
 	return 0;
 }
