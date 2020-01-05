@@ -15,6 +15,10 @@ int main(int argc, char *argv[])
 		else if(-input<=count){
 			printf("%d\n",array[-input-1]);
 		}	
+		else
+		{
+			printf("無効。\n");
+		}
 	}
 	return 0;
 }
