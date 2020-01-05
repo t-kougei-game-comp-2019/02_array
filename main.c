@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 
-int main()
+int main(int argc, char *argv[])
 {
 	char str[5];
 	int array[100],count=0;
