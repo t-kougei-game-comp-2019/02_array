@@ -1,6 +1,5 @@
 #include <stdio.h>
 
-
 int main(int argc, char *argv[])
 {
 	char str[5];
@@ -12,8 +11,8 @@ int main(int argc, char *argv[])
 		if (c>=0) {
 			array[count++]=c;
 		}
-		else if(-input<=count){
-			printf("%d\n",array[-input-1]);
+		else if(-c<=count){
+			printf("%d\n",array[-c-1]);
 		}	
 		else
 		{
