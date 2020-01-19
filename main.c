@@ -8,12 +8,13 @@ int main(int argc, char *argv[])
     
     while(fgets(str, sizeof(str), stdin)){
         input=atoi(str);
-        if(input>=0)
+        if(input>=0){
             array[count]=input;
-        else if(-input<=count)
+            count++;
+        }
+        else if(-input<=count){
             printf("%d\n",array[-input-1]);
-
-        count++;
+        }
     }
 
     return 0;
