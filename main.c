@@ -10,8 +10,9 @@ int main(int argc, char *argv[])
         input=atoi(str);
         if(input>=0)
             array[count]=input;
-        else
-            printf("%d",array[-input-1]);
+        else if(-input<=count)
+            printf("%d\n",array[-input-1]);
+
         count++;
     }
 
